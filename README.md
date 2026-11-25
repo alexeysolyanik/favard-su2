@@ -10,7 +10,7 @@ Run each script from this folder, for example `python3 hk.py`.
 |---|---|---|
 | `hk.py` | Sharp constants h_1, …, h_7 from the node equations (40-digit arithmetic); state constants h_k^st = H(k,S^2)/4 | Table 1 (sharp linear error), table of state constants |
 | `designs.py` | Binary polyhedral groups (Pauli, tetrahedral, Clifford, icosahedral) and the dimensions of their fixed spaces; design strength t | Table of rotation groups as unitary designs |
-| `econst.py` | Monte Carlo estimate of the worst-case factor e(G) for each group | Column e(G) of the same table |
+| `econst.py` | Monte Carlo estimate of the exact worst-case factor e(G) for each group | Remark after the design theorem (e(G) about one quarter below h_{t+1}) |
 | `testfun.py` | Errors of the group averages on the test response f_0 | Last column of the same table |
 | `casimir.py` | Check of −Δf = 4N f for f(U) = Tr(O U ρ U*) on SU(N) | Normalization of the Laplacian on SU(N) |
 | `compression_example.py` | Four-qubit Ising Trotter circuit (240 CNOT) and its 18-CNOT compression: loss on the grid, uniform certificate, design averages, Haar moments | Table of the certified compression |
