@@ -1,0 +1,13 @@
+# Certified enclosures of the sharp constants h_k, k = 1..5 (Appendix A of the paper).
+#
+# For each k: the rational trial nodes v_1 < ... < v_k, given as numerators
+# with common denominator 10^15, and the enclosure (lower, upper) for h_k
+# obtained from the enclosure inequality of Appendix A in 200-bit interval
+# arithmetic with directed rounding.
+#
+# k ; 10^15 * v_j ; enclosure for h_k
+1 ; 163193985408393 ; (0.22153761035677, 0.22153761035678)
+2 ; 70219361535150, 524290023979756 ; (0.08646617012828, 0.08646617012829)
+3 ; 39075558019576, 316905418175660, 709949551394574 ; (0.04673319581882, 0.04673319581883)
+4 ; 24886298602996, 209600891735474, 508490606500992, 807474033589015 ; (0.02938540963010, 0.02938540963012)
+5 ; 17236670514764, 148162629022827, 374936030060121, 636804091760665, 863655980405651 ; (0.02021569929294, 0.02021569929310)

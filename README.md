@@ -15,7 +15,8 @@ Run each script from this folder, for example `python3 hk.py`.
 | `casimir.py` | Check of −Δf = 4N f for f(U) = Tr(O U ρ U*) on SU(N) | Normalization of the Laplacian on SU(N) |
 | `compression_example.py` | Four-qubit Ising Trotter circuit (240 CNOT) and its 18-CNOT compression: loss on the grid, uniform certificate, design averages, Haar moments | Table of the certified compression |
 | `verify_shots.py` | Number of device runs needed to confirm the compression loss | Shot counts after the compression table |
-| `budget.py` | Query budgets with the value oracle and the classical Monte Carlo budget; intervals where the quantum budget is smaller | Appendix B, table of budgets |
+| `certified_nodes.txt` | Rational trial nodes and certified enclosures of h_1, …, h_5 (200-bit interval arithmetic) | Appendix A |
+| `budget.py` | Query budgets with the value oracle and the classical Monte Carlo budget; intervals where the quantum budget is smaller | Appendix B, table of budgets (the paper rounds them to two digits) |
 
 `econst.py`, `testfun.py`, `compression_example.py` and `verify_shots.py` read
 the group construction from `designs.py`; `verify_shots.py` also reads
